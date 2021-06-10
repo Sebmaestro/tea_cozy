@@ -5,14 +5,95 @@ body {
     background-color: black;
     opacity: 0.9;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 10px;
+    height: 50px;
+    margin-right: auto;
 }
 
 .header {
-    margin-left: 10px;
     height: 69px;
     border-bottom: 1px solid seashell;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    background-color: black;
 }
 
 nav a{
     text-decoration: underline;
+    margin: 0 8px;
+}
+
+.mission {
+    background-color: black;
+    width: 1200px;
+}
+
+.mission-image {
+    margin-top: 50px;
+    display: flex;
+    background-image: url(./resources/img-mission-background.jpg);
+    background-position: center center;
+    height: 700px;
+    width: 1200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.totm {
+    width: 1000px;
+}
+
+.totm img {
+    height: 200px;
+    width: 300px;
+}
+
+.tea-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.tea-image {
+    margin: 0 15px;
+}
+
+.locations {
+    background-image: url(./resources/img-locations-background.jpg);
+    height: 500px;
+    width: 1200px;
+}
+
+.location-images {
+    display: flex;
+    justify-content: center;
+}
+
+.adress {
+    width: 300px;
+    background-color: black;
+    margin: 15px 20px;
+    opacity: 1;
+}
+
+.footer {
+    height: 200px;
+}
+
+.copyright {
+    margin-left: 20px;
+    margin-right: auto;
 }
