@@ -12,3 +12,7 @@ body {
     height: 69px;
     border-bottom: 1px solid seashell;
 }
+
+nav a{
+    text-decoration: underline;
+}
